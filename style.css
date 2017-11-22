@@ -6,3 +6,21 @@ p{}
     font-size:50px;
 }
 #demo {}
+
+.box-one{
+
+    height:300px;
+    width: 400px;
+    float: left;
+    background-color:antiquewhite;
+
+
+}
+
+.box-two {
+
+    height:300px;
+    width: 400px;
+    float: left;
+    background-color:aquamarine;
+}
