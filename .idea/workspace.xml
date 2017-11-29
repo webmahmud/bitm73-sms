@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13ebf9b-128c-4b11-83ae-161260b88886" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day7/class day7.docx" afterPath="$PROJECT_DIR$/day7/class day7.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day7/css/day7.css" afterPath="$PROJECT_DIR$/day7/css/day7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day7/day7.html" afterPath="$PROJECT_DIR$/day7/day7.html" />
-    </list>
+    <list default="true" id="f13ebf9b-128c-4b11-83ae-161260b88886" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,16 +242,16 @@
       <workItem from="1511664750587" duration="20000" />
       <workItem from="1511783103221" duration="8584000" />
       <workItem from="1511838422198" duration="18000" />
-      <workItem from="1511956589081" duration="10123000" />
+      <workItem from="1511956589081" duration="10393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37954000" />
+    <option name="totallyTimeSpent" value="38224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
