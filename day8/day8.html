@@ -2,99 +2,260 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Day6 Class</title>
+    <title>Day8 Class</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="css/day7.css" rel="stylesheet">
 
 </head>
 <body>
+
+<div class="jumbotron" style="margin-bottom: 0px;">
+    <div class="container">
+        <h3>This is Heading. This is Heading.</h3>
+        <p>This is paragraph.This is paragraph.This is paragraph.This is paragraph.This is paragraph.This is paragraph.</p>
+
+    </div>
+
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="container">
+        <a href="#" class="navbar-brand">Logo</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#topmenu">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+    <div class="collapse navbar-collapse" id="topmenu">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a> </li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a></li>
+        <ul class="dropdown-menu bg-dark">
+            <li class="nav-item"><a href="#" class="nav-link">Service1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Service2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Service3</a></li>
+        </ul>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+
+    <ul class="navbar-nav">
+        <li class="nav-item"><a href="#" class="nav-link">Login</a> </li>
+        <li class="nav-item"><a href="#" class="nav-link">Sign Up</a></li>
+
+    </ul>
+    </div>
+</div>
+</nav>
 <div class="container">
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12 content-height" > <h1>Vertical form  Practice </h1></div>
+        <div class="col-xl-9 col-xl-9 col-lg-9 col-md-8 col-sm-9 col-12 content-height" >
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" name="first_name" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <lable> Last Name</lable>
+                <input type="text" name="last_name" class="form-control"/>
+
+            </div>
+
+            <div class="form-group">
+                <lable> Email</lable>
+                <input type="email" name="email" class="form-control"/>
+
+            </div>
 
 
+            <div class="form-group">
+                <lable> Password</lable>
+                <input type="password" name="password" class="form-control"/>
 
+            </div>
+
+            <div class="form-group">
+                <lable> Phone</lable>
+                <input type="number" name="phone" class="form-control"/>
+
+            </div>
+            <div class="form-group">
+                <lable> Date of Birth</lable>
+                <input type="date" name="dob" class="form-control"/>
+
+            </div>
+
+            <div class="form-group">
+                <lable> <input type="radio" name="gender" value="male" />Male</lable>
+                <lable> <input type="radio" name="gender" value="female" />Female</lable>
+
+
+            </div>
+
+            <div class="form-group">
+                <lable> Address</lable>
+                <textarea name="address" class="form-control"></textarea>
+
+
+            </div>
+
+            <div class="form-group">
+                <lable> Image</lable>
+                <input type="file" name="image" class="form-control" accept="image/*" multiple/>
+
+            </div>
+
+            <div class="form-group">
+                <lable> District Name</lable>
+                <select class="form-control" >
+
+                    <option>---Select District Name---</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Savar">Savar</option>
+                    <option value="Dohar">Dohar</option>
+                    <option value="Gazipur">Gazipur</option>
+                </select>
+
+            </div>
+
+            <div class="form-check">
+                <lable class="form-check-label">
+                    <input type="checkbox" class="form-check-input" name="agree" value="1"/> I agree with all terms & condition.</lable>
+
+
+            </div>
+
+            <div class="form-group">
+
+                <input type="submit" name="btn" class="btn btn-success btn-block" value="Registration">
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
 
     <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12 content-height" > <h1>Form Practice </h1></div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12 content-height" > <h1>Horizontal form  Practice </h1></div>
         <div class="col-xl-9 col-xl-9 col-lg-9 col-md-8 col-sm-9 col-12 content-height" >
-        <div class="form-group">
-            <label>First Name</label>
-            <input type="text" name="first_name" class="form-control"/>
-        </div>
-        <div class="form-group">
-            <lable> Last Name</lable>
-            <input type="text" name="last_name" class="form-control"/>
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> First Name</label>
+                <div class="col-sm-9">
+                    <input type="text" name="first1_name" class="form-control">
+                </div>
 
-        </div>
+            </div>
 
-        <div class="form-group">
-            <lable> Email</lable>
-            <input type="email" name="email" class="form-control"/>
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> Last Name</label>
+                <div class="col-sm-9">
+                    <input type="text" name="last1_name" class="form-control">
+                </div>
 
-        </div>
-
-
-        <div class="form-group">
-            <lable> Password</lable>
-            <input type="password" name="password" class="form-control"/>
-
-        </div>
-
-        <div class="form-group">
-            <lable> Phone</lable>
-            <input type="number" name="phone" class="form-control"/>
-
-        </div>
-        <div class="form-group">
-            <lable> Date of Birth</lable>
-            <input type="date" name="dob" class="form-control"/>
-
-        </div>
-
-        <div class="form-group">
-            <lable> <input type="radio" name="gender" value="male" />Male</lable>
-            <lable> <input type="radio" name="gender" value="female" />Female</lable>
+            </div>
 
 
-        </div>
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> Email Name</label>
+                <div class="col-sm-9">
+                    <input type="text" name="email1" class="form-control">
+                </div>
 
-        <div class="form-group">
-            <lable> Address</lable>
-            <textarea name="address" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> Password</label>
+                <div class="col-sm-9">
+                    <input type="password" name="password1" class="form-control">
+                </div>
+
+            </div>
+
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> Phone</label>
+                <div class="col-sm-9">
+                    <input type="number" name="phn1" class="form-control">
+                </div>
+
+            </div>
+
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> Date of Birth</label>
+                <div class="col-sm-9">
+                    <input type="date" name="dob1" class="form-control">
+                </div>
+
+            </div>
+
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> Gender</label>
+                <div class="col-sm-9">
+                    <lable> <input type="radio" name="gender" value="male" />Male</lable>
+                    <lable> <input type="radio" name="gender" value="female" />Female</lable>
+                </div>
+
+            </div>
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> Address</label>
+                <div class="col-sm-9">
+                    <textarea name="address1" class="form-control"></textarea>
+                </div>
+
+            </div>
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> Image</label>
+                <div class="col-sm-9">
+                    <input type="file" name="image1" class="form-control" accept="image/*" multiple/>
+                </div>
+
+            </div>
+
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> District </label>
+                <div class="col-sm-9">
+                    <select class="form-control" >
+
+                        <option>---Select District Name---</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="Savar">Savar</option>
+                        <option value="Dohar">Dohar</option>
+                        <option value="Gazipur">Gazipur</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="form-group row">
+
+                <div class="col-sm-12">
+                    <div class="form-check">
+                        <lable class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="agree" value="1"/> I agree with all terms & condition.</lable>
 
 
-        </div>
+                    </div>
+                </div>
 
-        <div class="form-group">
-            <lable> Image</lable>
-            <input type="file" name="image" class="form-control" accept="image/*" multiple/>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
 
-        </div>
-
-        <div class="form-group">
-            <lable> District Name</lable>
-            <select>
-
-                <option>---Select District Name---</option>
-                <option value="Dhaka">Dhaka</option>
-                <option value="Savar">Savar</option>
-                <option value="Dohar">Dohar</option>
-                <option value="Gazipur">Gazipur</option>
-            </select>
-
-        </div>
+                <input type="submit" name="btn1" class="btn btn-success btn-block" value="Registration">
 
 
+            </div>
+            </div>
 
         </div>
 
 
     </div>
-
-
-
-
-    </div>
-
+</div>
+<script src="js/jquery-3.2.1.js" ></script>
+<script src="js/popper.js" ></script>
 <script src="js/bootstrap.js"></script>
 </body>
 </html>
