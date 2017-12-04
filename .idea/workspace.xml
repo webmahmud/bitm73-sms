@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13ebf9b-128c-4b11-83ae-161260b88886" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day7/day7.html" afterPath="$PROJECT_DIR$/day7/day7.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/day8/day7.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8/class day8.docx" afterPath="$PROJECT_DIR$/day8/class day8.docx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="day7.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day8/day7.html">
+      <file leaf-file-name="day8.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day8/day8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-306">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="359">
+              <caret line="80" column="47" lean-forward="false" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -62,6 +62,8 @@
         <option value="$PROJECT_DIR$/day6/day6.html" />
         <option value="$PROJECT_DIR$/day7/css/day7.css" />
         <option value="$PROJECT_DIR$/day7/day7.html" />
+        <option value="$PROJECT_DIR$/day8/day7.html" />
+        <option value="$PROJECT_DIR$/day8/day8.html" />
       </list>
     </option>
   </component>
@@ -223,12 +225,12 @@
       <workItem from="1511838422198" duration="18000" />
       <workItem from="1511956589081" duration="10393000" />
       <workItem from="1512009794546" duration="380000" />
-      <workItem from="1512388022349" duration="199000" />
+      <workItem from="1512388022349" duration="2536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38803000" />
+    <option name="totallyTimeSpent" value="41140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -531,8 +533,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day8/day7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="376">
+          <caret line="48" column="64" lean-forward="true" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day8/day8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="80" column="47" lean-forward="false" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
           <folding />
         </state>
       </provider>
