@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13ebf9b-128c-4b11-83ae-161260b88886" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8/class day8.docx" afterPath="$PROJECT_DIR$/day8/class day8.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day8/day8.html" afterPath="$PROJECT_DIR$/day8/day8.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,13 +17,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="day8.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day8.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day8/day8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="66" />
+            <state relative-caret-position="85">
+              <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="132" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="day9.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day9/day9.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="153" column="42" lean-forward="false" selection-start-line="153" selection-start-column="42" selection-end-line="153" selection-end-column="42" />
+              <folding>
+                <element signature="e#4304#4311#0" expanded="true" />
+                <element signature="e#5310#5317#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day9/js/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="2410" column="29" lean-forward="false" selection-start-line="2410" selection-start-column="29" selection-end-line="2410" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,6 +71,10 @@
       <find>col-xl-3</find>
       <find>h1</find>
       <find>butto</find>
+      <find>popp</find>
+      <find>dropdow</find>
+      <find>popper</find>
+      <find>accordion</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,6 +96,7 @@
         <option value="$PROJECT_DIR$/day8/js/jquery-3.2.1.js" />
         <option value="$PROJECT_DIR$/day8/js/popper.min.js" />
         <option value="$PROJECT_DIR$/day8/day8.html" />
+        <option value="$PROJECT_DIR$/day9/day9.html" />
       </list>
     </option>
   </component>
@@ -100,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,40 +154,9 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitm73-sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitm73-sms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day8" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitm73-sms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bitm73-sms" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day7" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -249,12 +245,14 @@
       <workItem from="1511956589081" duration="10393000" />
       <workItem from="1512009794546" duration="380000" />
       <workItem from="1512388022349" duration="9570000" />
-      <workItem from="1512398441550" duration="2817000" />
+      <workItem from="1512398441550" duration="3027000" />
+      <workItem from="1512445310648" duration="7000" />
+      <workItem from="1512562412904" duration="6912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50991000" />
+    <option name="totallyTimeSpent" value="58120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -300,6 +298,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day8/day8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day8/day8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day7/day7.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -311,7 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6987">
           <caret line="411" column="27" lean-forward="false" selection-start-line="411" selection-start-column="22" selection-end-line="411" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -333,7 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6987">
           <caret line="411" column="27" lean-forward="false" selection-start-line="411" selection-start-column="22" selection-end-line="411" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="411" column="27" lean-forward="false" selection-start-line="411" selection-start-column="22" selection-end-line="411" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="712">
           <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,20 +596,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day8/js/popper.min.js">
+    <entry file="file://$PROJECT_DIR$/day8/js/popper.min.js" />
+    <entry file="file://$PROJECT_DIR$/day9/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="436" lean-forward="false" selection-start-line="3" selection-start-column="436" selection-end-line="3" selection-end-column="436" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="2410" column="29" lean-forward="false" selection-start-line="2410" selection-start-column="29" selection-end-line="2410" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day8/day8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="66" />
+        <state relative-caret-position="85">
+          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="132" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day9/day9.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="153" column="42" lean-forward="false" selection-start-line="153" selection-start-column="42" selection-end-line="153" selection-end-column="42" />
+          <folding>
+            <element signature="e#4304#4311#0" expanded="true" />
+            <element signature="e#5310#5317#0" expanded="true" />
           </folding>
         </state>
       </provider>
