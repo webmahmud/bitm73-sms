@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13ebf9b-128c-4b11-83ae-161260b88886" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day9/~$ass day9.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/day9/~WRL0003.tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day10/day10.html" afterPath="$PROJECT_DIR$/day10/day10.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +20,11 @@
       <file leaf-file-name="day10.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day10/day10.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="87">
+              <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
               <folding>
-                <marker date="1512829197268" expanded="true" signature="301:351" ph="..." />
+                <marker date="1512833230231" expanded="true" signature="301:351" ph="..." />
+                <marker date="1512833230231" expanded="true" signature="677:882" ph="..." />
               </folding>
             </state>
           </provider>
@@ -228,12 +227,12 @@
       <workItem from="1512445310648" duration="7000" />
       <workItem from="1512562412904" duration="10670000" />
       <workItem from="1512615302220" duration="83000" />
-      <workItem from="1512820300878" duration="6055000" />
+      <workItem from="1512820300878" duration="9291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68016000" />
+    <option name="totallyTimeSpent" value="71252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -635,10 +634,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day10/day10.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="77" column="25" lean-forward="false" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding>
-            <marker date="1512829197268" expanded="true" signature="301:351" ph="..." />
+            <marker date="1512833230231" expanded="true" signature="301:351" ph="..." />
+            <marker date="1512833230231" expanded="true" signature="677:882" ph="..." />
           </folding>
         </state>
       </provider>
