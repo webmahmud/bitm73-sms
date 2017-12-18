@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Test</title>
+</head>
+<body>
+<button id="btn" type="button">Click me</button>
+
+
+
+
+<script >
+
+
+    var btnMe = document.getElementById('btn');
+    
+    btnMe.onclick = function () {
+
+        var headingElement = document.createElement('h1');
+        var paragraphElement = document.createElement('p');
+
+        headingElement.innerHTML = "This is a heading";
+        paragraphElement.innerHTML = "this is some content";
+
+        document.getElementById('btnMe').appendChild(headingElement);
+        document.getElementById('btnMe').appendChild(paragraphElement);
+
+
+    };
+
+
+
+</script>
+
+</body>
+</html>

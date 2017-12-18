@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day13 Class</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/day13.css" rel="stylesheet">
+    <style>
+        .class-one {
+
+            height: 300px;
+            width: 300px;
+            background-color:red;
+            border-radius: 150px;
+        }
+        .class-two {
+
+            height: 150px;
+            width: 300px;
+            background-color:green;
+            border-radius: 150px 150px;
+        }
+        .class-three {
+
+            height: 300px;
+            width: 300px;
+            background-color:blue;
+            border-radius: 150px;
+        }
+        .class-four {
+
+            height: 300px;
+            width: 300px;
+            border: 1px solid;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div align="center"> <h1> Class 13 - Learning JAVA Script - Calculator</h1></div>
+
+
+<hr>
+<table border="0">
+    <tr>
+        <td>First Number</td>
+        <td><input type="number" id="firstNumber" name="first_number" class="form-control"> </td>
+
+    </tr>
+
+    <tr>
+        <td >Second Number</td>
+        <td ><input type="number" id="secondNumber" name="second_number" class="form-control"></td>
+
+    </tr>
+<tr>
+    <td>Result</td>
+    <td ><input type="number"  id="resultNumber" class="form-control"/></td>
+
+</tr>
+    <tr>
+        <td colspan="2" align="right"><br/>
+
+            <input type="submit" name="btn" id="addBtn" value="+" class="btn btn-dark">
+            <input type="submit" name="btn" id="subBtn" value="-" class="btn btn-dark">
+            <input type="submit" name="btn" id="mulBtn" value="*" class="btn btn-dark">
+            <input type="submit" name="btn" id="divBtn" value="/" class="btn btn-dark">
+            <input type="submit" name="btn" id="remBtn" value="%" class="btn btn-dark">
+
+
+        </td>
+
+    </tr>
+</table>
+
+<br/>
+<div class="col-sm-4">
+<button type="button" id="redBtn" class="btn-dark">Red</button>
+<button type="button" id="greenBtn" class="btn-dark">Green</button>
+<button type="button" id="blueBtn" class="btn-dark">Blue</button>
+<button type="button" id="defaultBtn" class="btn-dark">Default</button>
+</div>
+<div class="class-one" id="div">
+
+
+
+</div>
+<br/>
+<br/>
+<table>
+    <tr>
+        <td>
+            Enter Height:
+        </td>
+        <td><input type="number" name="putHeight" id="putHeight"></td>
+    </tr>
+
+    <tr>
+        <td>
+            Enter width:
+        </td>
+        <td><input type="number" name="putwidth" id="putWidth"></td>
+
+    </tr>
+
+    <tr>
+        <td>
+            Enter Background Color:
+        </td>
+        <td>
+            <input type="text" name="putColor" id="putColor">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td colspan="2">
+           <input type="button" id="createElement" class="btn btn-success" value="Create Element">
+
+
+
+        </td>
+    </tr>
+</table>
+
+<div id="newdiv" class="createElement">
+
+</div>
+
+<script src="js/jquery-3.2.1.js" ></script>
+<script src="js/popper.js" ></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/mahmud.js"></script>
+
+</body>
+</html>
