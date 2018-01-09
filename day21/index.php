@@ -11,6 +11,7 @@
 
 
 <body bgcolor="#2f4f4f">
+<h1>Day 21 Class</h1>
     <form action="" method="post">
         <table width="400" height="200" align="center" bgcolor="#faebd7">
             <h1 align="center" style="color: green"><?php echo $messege; ?></h1>
